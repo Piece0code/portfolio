@@ -86,12 +86,12 @@ export function About() {
             </div>
             <div className="relative w-full lg:col-span-1 max-w-sm mx-auto aspect-[2.8/5] bg-neutral-100 dark:bg-neutral-800 overflow-hidden rounded-2xl shadow-sm lg:sticky lg:top-32 group">
               <ImageWithFallback
-                src="public/images/Photo-Z01-Delgerbayar-KHUDERCHULUUN-01.jpg"
+                src="images/Photo-Z01-Delgerbayar-KHUDERCHULUUN-01.jpg"
                 alt="Professional profile"
                 className="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ease-in-out group-hover:opacity-0"
               />
               <ImageWithFallback
-                src="public/images/Photo-Z01-Delgerbayar-KHUDERCHULUUN-01.jpg"
+                src="images/Photo-Z01-Delgerbayar-KHUDERCHULUUN-01.jpg"
                 alt="Professional profile alternative"
                 className="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100"
               />
