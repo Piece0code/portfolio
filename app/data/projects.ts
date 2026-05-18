@@ -1,25 +1,36 @@
 export const projects = [
   {
     id: 1,
-    title: "Inventory Optimizer",
+    title: "Groupie Tracker",
     description:
-      "Built an end-to-end inventory optimization tool in Go combining lightweight statistical demand forecasting (SMA, SES) with a Monte Carlo simulation engine and classical inventory models (EOQ, reorder points, safety stock). \
-      Processes CSV inputs, quantifies stockout risk and total cost under uncertainty, and produces actionable reorder recommendations with downloadable CSV/PDF reports. Includes optional PostgreSQL-backed persistence and JWT-based auth for saved reports.",
+      "Groupie Trackers consists of receiving a given API and manipulating the data contained in it in order to create a website displaying the information.",
     image:
-      "/images/inventory-optimizer/inventory_optimizer.png",
-    tags: ["Go", "PostgreSQL", "Monte Carlo", "CSV", "HTML Templates"],
+      "/images/Groupie-tracker/image.png",
+    tags: ["Go", "HTML"],
     year: "2026",
-    category: "Optimization",
-    content: "Inventory Optimizer is a production-ready Go application that converts historical sales and SKU parameter data into robust reorder recommendations and cost/service-level tradeoffs. \
-    Forecasting uses Simple Moving Average and Single Exponential Smoothing with linear trend detection and coefficient-of-variation variability classification to handle sparse, noisy series (20–104 weeks). \
-    A parallelized Monte Carlo simulation engine models demand uncertainty and lead times to estimate stockout probability, average inventory, and holding/ordering costs. Inventory logic implements EOQ and reorder-point checks; reports can be saved to PostgreSQL and exported as CSV or PDF. \
-    The web UI is server-rendered using html/template with embedded static assets for a lightweight frontend. The codebase emphasizes correctness (unit tests), configurability of simulation parameters, and fast concurrent execution with Go routines.",
+    category: "rest API",
+    content: "Groupie Trackers is a dynamic web application built entirely with Go's standard library that aggregates, processes, and visualizes complex data from a multi-endpoint music industry API. The platform transforms raw, relational data—encompassing artist biographies, concert locations, performance dates, and their interconnected relationships—into a seamless, user-friendly data visualization experience.",
     additionalMedia: [
-      "/images/inventory-optimizer/photo2.png",
-      "/images/inventory-optimizer/photo3.png",
-      "/images/inventory-optimizer/photo4.png",
+      
     ],
-    code: "https://github.com/nobleenia/inventory-optimizer.git",
+    code: "https://zone01normandie.org/git/dkhuderc/groupie-tracker",
+    demo: "",
+  },
+  {
+    id: 2,
+    title: "Net-Cat",
+    description:
+      "A high-concurrency, zero-dependency TCP chat server engineered in Go that mimics NetCat utility behavior to support multi-client group communication.",
+    image:
+      "/images/Net-cat/Screenshot 2026-05-18 142936.png",
+    tags: ["Go"],
+    year: "2026",
+    category: "Communication",
+    content: "Engineered a high-concurrency, zero-dependency TCP chat server using Go's native networking capabilities (net) to replicate core NetCat utility behaviors across a multi-client architecture. Leveraging a robust system of Go-routines, channels, and mutexes, the server safely manages concurrent state, broadcasts real-time messages simultaneously, and enforces a strict 10-client connection limit. The system features dynamic session tracking to instantly notify the group when users join, leave, or update usernames, while a central message history buffer ensures newly connected clients are seamlessly brought up to speed with past logs. Built with rigorous server-side validation and error handling, the platform guarantees 100% uptime, flawlessly formats cryptographic timestamps, and blocks empty data transmissions to keep the network efficient and crash-resilient.",
+    additionalMedia: [
+      
+    ],
+    code: "https://zone01normandie.org/git/oangeliq/net-cat",
     demo: "",
   }
 ]

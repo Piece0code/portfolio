@@ -98,7 +98,7 @@ export function Contact() {
                       href="mailto:hello@datachain.com"
                       className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
                     >
-                      neluwah@gmail.com
+                      ta.deegii@gmail.com
                     </a>
                   </div>
                 </div>
@@ -110,12 +110,12 @@ export function Contact() {
                   <div>
                     <h3 className="text-lg mb-1 tracking-tight">LinkedIn</h3>
                     <a
-                      href="https://linkedin.com/in/nobleeluwah"
+                      href="https://www.linkedin.com/in/delgerbayar-khuderchuluun-4a62303b0/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
                     >
-                      linkedin.com/in/nobleeluwah
+                      www.linkedin.com/in/delgerbayar-khuderchuluun/
                     </a>
                   </div>
                 </div>
@@ -127,12 +127,12 @@ export function Contact() {
                   <div>
                     <h3 className="text-lg mb-1 tracking-tight">GitHub</h3>
                     <a
-                      href="https://github.com/nobleenia"
+                      href="https://github.com/Piece0code"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
                     >
-                      github.com/nobleenia
+                      github.com/Piece0code
                     </a>
                   </div>
                 </div>
@@ -257,7 +257,7 @@ export function Contact() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-neutral-50 dark:bg-neutral-900">
+      {/* <section className="py-20 bg-neutral-50 dark:bg-neutral-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-12">
           <h2 className="text-3xl mb-12 tracking-tight">
             Frequently Asked Questions
@@ -296,7 +296,7 @@ export function Contact() {
             </FaqItem>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

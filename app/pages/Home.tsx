@@ -4,34 +4,26 @@ import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 
 export function Home() {
   const featuredProjects = [
-    {
-      id: 1,
-      title: "Inventory Optimizer",
-      description:
-        "Built an end-to-end inventory optimization tool in Go combining lightweight statistical demand forecasting (SMA, SES) with a Monte Carlo simulation engine and classical inventory models (EOQ, reorder points, safety stock). \
-        Processes CSV inputs, quantifies stockout risk and total cost under uncertainty, and produces actionable reorder recommendations with downloadable CSV/PDF reports. Includes optional PostgreSQL-backed persistence and JWT-based auth for saved reports.",
-      image:
-        "/images/inventory-optimizer/inventory_optimizer.png",
-      tags: ["Go", "PostgreSQL", "Monte Carlo", "CSV", "HTML Templates"],
-    },
-    {
-      id: 2,
-      title: "Lyre & Muses NGO Website",
-      description:
-        "Designed and maintained a modern, responsive website for a non-profit organization, focusing on clear communication, accessibility, and user engagement. Delivered a professional online presence to support outreach, donations, and community visibility.",
-      image:
-        "/images/lyre-muses/main_photo.png",
-      tags: ["WordPress", "JavaScript", "Bootstrap", "SEO", "Web Administration"],
-    },
-    {
-      id: 3,
-      title: "QuizApp",
-      description:
-        "Engineered a full-stack quiz platform with secure authentication, persistent quiz state, and performance-focused APIs. Built a social learning experience with community, friend discovery, and notifications to boost engagement and retention.",
-      image:
-        "/images/quizapp/main_photo.png",
-      tags: ["React", "Node.js", "Express", "MongoDB", "Redis", "JWT"],
-    },
+  {
+    id: 1,
+    title: "Groupie Tracker",
+    description:
+      "Groupie Trackers consists of receiving a given API and manipulating the data contained in it in order to create a website displaying the information.",
+    image:
+      "/images/Groupie-tracker/image.png",
+    tags: ["Go", "HTML"],
+    content: "Groupie Trackers is a dynamic web application built entirely with Go's standard library that aggregates, processes, and visualizes complex data from a multi-endpoint music industry API. The platform transforms raw, relational data—encompassing artist biographies, concert locations, performance dates, and their interconnected relationships—into a seamless, user-friendly data visualization experience.",
+  },
+  {
+    id: 2,
+    title: "Net-Cat",
+    description:
+      "A high-concurrency, zero-dependency TCP chat server engineered in Go that mimics NetCat utility behavior to support multi-client group communication.",
+    image:
+      "/images/Net-cat/Screenshot 2026-05-18 142936.png",
+    tags: ["Go"],
+    content: "Engineered a high-concurrency, zero-dependency TCP chat server using Go's native networking capabilities (net) to replicate core NetCat utility behaviors across a multi-client architecture. Leveraging a robust system of Go-routines, channels, and mutexes, the server safely manages concurrent state, broadcasts real-time messages simultaneously, and enforces a strict 10-client connection limit. The system features dynamic session tracking to instantly notify the group when users join, leave, or update usernames, while a central message history buffer ensures newly connected clients are seamlessly brought up to speed with past logs. Built with rigorous server-side validation and error handling, the platform guarantees 100% uptime, flawlessly formats cryptographic timestamps, and blocks empty data transmissions to keep the network efficient and crash-resilient.",
+  }
   ];
 
   return (

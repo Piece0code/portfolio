@@ -5,92 +5,42 @@ export function About() {
   const skills = [
     {
       category: "Programming",
-      items: ["JavaScript/TypeScript", "Go", "Python", "C", "Solidity", "R", "SQL"],
-    },
-    {
-      category: "Machine Learning",
-      items: ["TensorFlow", "PyTorch", "Scikit-learn", "XGBoost", "Prophet"],
-    },
-    {
-      category: "Optimization",
-      items: ["Gurobi", "OR-Tools", "CPLEX", "PuLP", "Genetic Algorithms"],
-    },
-    {
-      category: "Data Engineering",
-      items: ["Apache Spark", "Kafka", "Airflow", "PostgreSQL", "MongoDB"],
-    },
-    {
-      category: "Visualization",
-      items: ["React", "D3.js", "Tableau", "Plotly", "Power BI"],
-    },
-    {
-      category: "Cloud & DevOps",
-      items: ["AWS", "Docker", "Kubernetes", "CI/CD", "Git"],
+      items: ["JavaScript", "Go", "SQL"],
     },
   ];
 
   const experience = [
-  {
-    title: "Web Developer (Security & Systems)",
-    company: "Attineos Applications",
-    period: "2024",
-    description:
-      "Built a domain conformity checker automating DNS validation, SPF/DMARC checks, IP reputation analysis, and external API integrations. Developed an admin dashboard with React and TypeScript, improving system usability and operational visibility.",
-  },
-  {
-    title: "Supply Chain Simulation & Optimization",
-    company: "CESI – Logistics 4.0 Lab",
-    period: "2021",
-    description:
-      "Developed simulation models for a multi-modal logistics platform. Improved operational efficiency through data-driven scheduling and system modeling, contributing to cost reduction and high on-time delivery performance.",
-  },
-  {
-    title: "Supply Chain & Process Analyst",
-    company: "Lobic Engineering Services",
-    period: "2017 - 2018",
-    description:
-      "Optimized supply chain processes, reducing operational costs and improving efficiency. Led supplier performance analysis and implemented process improvements that reduced risks and enhanced system reliability.",
-  },
+  // {
+  //   title: "Concepteur Développeur d’Applications",
+  //   company: "Attineos Applications",
+  //   period: "2024",
+  //   description:
+  //     "Built a domain conformity checker automating DNS validation, SPF/DMARC checks, IP reputation analysis, and external API integrations. Developed an admin dashboard with React and TypeScript, improving system usability and operational visibility.",
+  // }
 ];
 
   const education = [
     {
-      degree: "B.S in Software Engineering",
+      degree: "Concepteur Développeur d’Applications",
       institution: "Campus Saint-Marc",
-      year: "2026"
-    },
-    {
-      degree: "M.S. in Industrial Engineering",
-      institution: "Grenoble INP",
-      year: "2021",
-    },
-    {
-      degree: "B.S. in Industrial Tech",
-      institution: "University of Nigeria",
-      year: "2014",
+      year: "2025-2027"
     },
   ];
 
   const training = [
-  {
-    name: "Full-Stack Software Engineering",
-    organization: "Holberton Schools - ALX Africa",
-    period: "2023 - 2024",
-    focus:
-      "Backend systems, data modeling, distributed collaboration",
-  },
-  {
-  name: "Blockchain Architecture & Systems",
-  organization: "Althash University",
-  period: "2022 - 2023",
-  focus: "Distributed systems fundamentals and network structures.",
-}
+  // {
+  //   name: "Full-Stack Software Engineering",
+  //   organization: "Holberton Schools - ALX Africa",
+  //   period: "2023 - 2024",
+  //   focus:
+  //     "Backend systems, data modeling, distributed collaboration",
+  // }
 ];
 
   const certifications = [
-    "Google Cloud Professional Data Analytics",
-    "APICS CPIM (Certified in Production and Inventory Management)",
-    "Microsoft Certified: Azure AI - Specialty",
+    // "Google Cloud Professional Data Analytics",
+    // "APICS CPIM (Certified in Production and Inventory Management)",
+    // "Microsoft Certified: Azure AI - Specialty",
   ];
 
   return (
@@ -105,125 +55,43 @@ export function About() {
               </h1>
               <div className="space-y-3 text-neutral-600 dark:text-neutral-400 leading-relaxed">
                 <p>
-                  I didn’t start in tech.
+                  Working in environments where inefficiencies mean lost time and direct costs gave me a practical perspective: I don’t look at software as just code, but as a tool to solve real-world friction.
                 </p>
-                <p>
-                  I started in operations, where decisions have real consequences, delays translate into costs, 
-                  and inefficiencies can’t hide behind polished interfaces.
-                </p>
-                <p>
-                  I’ve worked on factory floors, within supply chains, 
-                  and across logistics systems where a single wrong assumption can lead to missed deliveries, excess inventory, or wasted capital. <br />
-                  In one role, I helped reduce costs and significantly improve performance not just through theory, 
-                  but by changing how decisions were actually made.
-                </p>
-                <p>
-                  That perspective stayed with me.
-                </p>
+
                 <div className="w-full h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent my-3" />
+
                 <p>
-                  Eventually, I moved into "tech".
-                </p>
-                <p>
-                  Not because I wanted to “become a developer,” 
-                  but because I needed to build the tools I wish I had when dealing with real operational challenges.
-                </p>
-                <p>              
-                  Since then, my work has spanned:
-                  <ul className="list-disc pl-5 space-y-1 text-gray-700">
-                  <li>Data analysis and decision support</li>
-                  <li>Full-stack development</li>
-                  <li>Simulation and optimization systems</li>
-                  <li>Security-focused applications</li>
+                  I moved into software engineering because I wanted to build the exact tools I wished I had when facing operational challenges. Today, as a first-year student in a BAC+3 program at Campus Saint-Marc (Zone01), I am fast-tracking my technical skills across:
+                  <ul className="list-disc pl-5 space-y-1 text-gray-700 mt-2">
+                    <li>Full-stack web development</li>
+                    <li>Algorithm logic and data manipulation</li>
+                    <li>Building clean, crash-resilient backend systems</li>
                   </ul>
                 </p>
-                <p>
-                  From building a domain conformity checker in a cybersecurity environment to developing dashboards and data pipelines, 
-                  there’s been a consistent thread in what I do: <br />
-                  <strong>making systems clearer, more reliable, and genuinely useful for decision-making.</strong>
-                </p>
+
                 <div className="w-full h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent my-3" />
+
+                <h3>What I Bring to a Team</h3>
                 <p>
-                  Today, I’m continuing in that direction through a BAC+3 program at Campus Saint-Marc (Zone01), 
-                  while actively building tools at the intersection of:
-                  <ul className="list-disc pl-5 space-y-1 text-gray-700">
-                    <li>operations</li>
-                    <li>data</li>
-                    <li>software engineering</li>
-                  </ul>
+                  Even as a junior developer, I don't build features in isolation. I focus on outcomes, write structured code (like zero-dependency Go architectures), and excel at breaking down messy, real-world problems into clear logic.
                 </p>
-                <p>
-                  The goal is straightforward: <br />
-                    <strong>to design systems that don’t just present information, 
-                      but actually help people make better decisions.</strong>
-                </p>
+
                 <div className="w-full h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent my-3" />
+
                 <p>
-                  <h3>What I Do</h3>
-                  I build tools and solutions focused on:
-                  <ul className="list-disc pl-5 space-y-1 text-gray-700">
-                    <li>Inventory and supply chain decision support</li>
-                    <li>Data-driven operational analysis</li>
-                    <li>Backend and full-stack development</li>
-                    <li>Process optimization through software</li>
-                  </ul>
-                </p>
-                <p>
-                  I’m especially drawn to problems where:
-                  <ul className="list-disc pl-5 space-y-1 text-gray-700">
-                    <li>data exists but isn’t being used effectively</li>
-                    <li>decisions are still manual or reactive</li>
-                    <li>small improvements can create meaningful financial impact</li>
-                  </ul>
-                </p>
-                <div className="w-full h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent my-3" />
-                <p>
-                  <h3>What You Can Expect Working With Me</h3>
-                  <ul className="list-disc pl-5 space-y-1 text-gray-700">
-                    <li>I think in systems, not isolated features</li>
-                    <li>I focus on outcomes, not just implementation</li>
-                    <li>I can move from problem → model → working solution</li>
-                    <li>I’m comfortable navigating ambiguity and constraints</li>
-                  </ul>
-                  And I don’t overcomplicate things just to make them look impressive.
-                </p>
-                <div className="w-full h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent my-3" />
-                <p>
-                  <h3>Where I’m Going</h3>
-                  Right now, I’m focused on building decision engines for real operational problems; 
-                  starting with inventory systems for e-commerce and growing businesses.
-                </p>
-                <p>
-                  Over time, I’m working toward more complex optimization systems that connect:
-                  <ul className="list-disc pl-5 space-y-1 text-gray-700">
-                    <li>supply chains</li>
-                    <li>data infrastructure</li>
-                    <li>decision logic</li>
-                  </ul>
-                </p>
-                <div className="w-full h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent my-3" />
-                <p>
-                  <h3>If You’re Here For a Reason</h3>
-                </p>
-                <p>
-                  If you’re looking for someone who can bridge operations and software,
-                  someone who can structure and build around your data,
-                  or someone who takes a practical approach to solving messy, real-world problems
-                </p>
-                <p>
-                  <strong>...there’s a good chance we’ll work WELL TOGETHER.</strong>
+                  <strong>If you are looking for an adaptable junior who understands that software needs to be genuinely useful for the end-user... let's connect.</strong>
                 </p>
                 <div className="w-full h-px bg-gradient-to-r from-transparent via-gray-600 to-transparent my-3" />
               </div>
             </div>
             <div className="relative w-full lg:col-span-1 max-w-sm mx-auto aspect-[2.8/5] bg-neutral-100 dark:bg-neutral-800 overflow-hidden rounded-2xl shadow-sm lg:sticky lg:top-32 group">
               <ImageWithFallback
-                src="/images/main_photo.jpeg"
+                src="/images/Photo-Z01-Delgerbayar-KHUDERCHULUUN-01.jpg"
                 alt="Professional profile"
                 className="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ease-in-out group-hover:opacity-0"
               />
               <ImageWithFallback
-                src="/images/second_photo.jpeg"
+                src="/images/Photo-Z01-Delgerbayar-KHUDERCHULUUN-01.jpg"
                 alt="Professional profile alternative"
                 className="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100"
               />

@@ -46,6 +46,7 @@
     "cmdk": "1.1.1",
     "date-fns": "3.6.0",
     "embla-carousel-react": "8.6.0",
+    "express": "^5.2.1",
     "input-otp": "1.4.2",
     "lucide-react": "0.487.0",
     "mermaid": "^11.14.0",
@@ -90,5 +91,18 @@
     "overrides": {
       "vite": "6.3.5"
     }
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piece0code/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Piece0code/portfolio/issues"
+  },
+  "homepage": "https://github.com/Piece0code/portfolio#readme"
 }
