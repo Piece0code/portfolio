@@ -1,29 +1,6 @@
-import { Mail, Linkedin, Github, MapPin, Send, ChevronDown } from "lucide-react";
+import { Mail, Linkedin, Github, MapPin, Send} from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
-
-function FaqItem({ question, children }: { question: string; children: React.ReactNode }) {
-  const [isOpen, setIsOpen] = useState(false);
-
-  return (
-    <div className="border-b border-neutral-200 dark:border-neutral-800 pb-6 last:border-0 last:pb-0">
-      <h3
-        className="text-xl tracking-tight cursor-pointer hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors flex justify-between items-center bg-transparent"
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        <span>{question}</span>
-        <ChevronDown 
-          className={`w-5 h-5 text-neutral-400 transition-transform duration-200 shrink-0 ml-4 ${isOpen ? "rotate-180" : ""}`} 
-        />
-      </h3>
-      {isOpen && (
-        <div className="mt-4">
-          {children}
-        </div>
-      )}
-    </div>
-  );
-}
 
 export function Contact() {
   const [formData, setFormData] = useState({

@@ -9,14 +9,14 @@ export function About() {
     },
   ];
 
-  const experience = [
-    {
-      title: "Concepteur Développeur d’Applications",
-      company: "Attineos Applications",
-      period: "2024",
-      description:
-        "Built a domain conformity checker automating DNS validation, SPF/DMARC checks, IP reputation analysis, and external API integrations. Developed an admin dashboard with React and TypeScript, improving system usability and operational visibility.",
-    }
+  const experience: Array<{ title: string; company: string; period: string; description: string }> = [
+    // {
+    //   title: "Concepteur Développeur d’Applications",
+    //   company: "Attineos Applications",
+    //   period: "2024",
+    //   description:
+    //     "Built a domain conformity checker automating DNS validation, SPF/DMARC checks, IP reputation analysis, and external API integrations. Developed an admin dashboard with React and TypeScript, improving system usability and operational visibility.",
+    // }
   ];
 
   const education = [
