@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { ArrowRight, BarChart3, Cpu, Package, TrendingUp } from "lucide-react";
+import { ArrowRight, Cpu, } from "lucide-react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 
 export function Home() {

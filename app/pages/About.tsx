@@ -1,5 +1,5 @@
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
-import { Award, BookOpen, Brain, Briefcase, GraduationCap, House } from "lucide-react";
+import { Award, BookOpen, Brain, Briefcase, GraduationCap, } from "lucide-react";
 
 export function About() {
   const skills = [
@@ -10,14 +10,14 @@ export function About() {
   ];
 
   const experience = [
-  // {
-  //   title: "Concepteur Développeur d’Applications",
-  //   company: "Attineos Applications",
-  //   period: "2024",
-  //   description:
-  //     "Built a domain conformity checker automating DNS validation, SPF/DMARC checks, IP reputation analysis, and external API integrations. Developed an admin dashboard with React and TypeScript, improving system usability and operational visibility.",
-  // }
-];
+    {
+      title: "Concepteur Développeur d’Applications",
+      company: "Attineos Applications",
+      period: "2024",
+      description:
+        "Built a domain conformity checker automating DNS validation, SPF/DMARC checks, IP reputation analysis, and external API integrations. Developed an admin dashboard with React and TypeScript, improving system usability and operational visibility.",
+    }
+  ];
 
   const education = [
     {
@@ -27,17 +27,17 @@ export function About() {
     },
   ];
 
-  const training = [
-  // {
-  //   name: "Full-Stack Software Engineering",
-  //   organization: "Holberton Schools - ALX Africa",
-  //   period: "2023 - 2024",
-  //   focus:
-  //     "Backend systems, data modeling, distributed collaboration",
-  // }
-];
+  const training: Array<{ name: string; organization: string; period: string; focus: string }> = [
+    // {
+    //   name: "Full-Stack Software Engineering",
+    //   organization: "Holberton Schools - ALX Africa",
+    //   period: "2023 - 2024",
+    //   focus:
+    //     "Backend systems, data modeling, distributed collaboration",
+    // }
+  ];
 
-  const certifications = [
+  const certifications: string[] = [
     // "Google Cloud Professional Data Analytics",
     // "APICS CPIM (Certified in Production and Inventory Management)",
     // "Microsoft Certified: Azure AI - Specialty",
