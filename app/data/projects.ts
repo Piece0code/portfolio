@@ -5,7 +5,7 @@ export const projects = [
     description:
       "Groupie Trackers consists of receiving a given API and manipulating the data contained in it in order to create a website displaying the information.",
     image:
-      "/images/Groupie-tracker/image.png",
+      "images/Groupie-tracker/image.png",
     tags: ["Go", "HTML"],
     year: "2026",
     category: "rest API",
@@ -22,7 +22,7 @@ export const projects = [
     description:
       "A high-concurrency, zero-dependency TCP chat server engineered in Go that mimics NetCat utility behavior to support multi-client group communication.",
     image:
-      "/images/Net-cat/Screenshot 2026-05-18 142936.png",
+      "images/Net-cat/Screenshot 2026-05-18 142936.png",
     tags: ["Go"],
     year: "2026",
     category: "Communication",
