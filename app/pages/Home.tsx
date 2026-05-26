@@ -113,7 +113,7 @@ export function Home() {
                 className="group relative cursor-pointer block aspect-[5/3] overflow-hidden bg-neutral-100 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-800 hover:border-neutral-900 dark:hover:border-neutral-600 transition-colors"
               >
                 <ImageWithFallback
-                  src={project.image}
+                  src={import.meta.env.BASE_URL + project.image}
                   alt={project.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
