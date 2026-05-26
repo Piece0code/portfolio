@@ -17,7 +17,7 @@ export function Projects() {
                 className="group relative block aspect-[16/10] overflow-hidden bg-neutral-100 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-800 hover:border-neutral-900 dark:hover:border-neutral-600 transition-colors"
               >
                 <ImageWithFallback
-                  src={import.meta.env.BASE_URL + project.image}
+                  src={import.meta.env.BASE_URL + "images/Groupie-tracker/image.png"}
                   alt={project.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
